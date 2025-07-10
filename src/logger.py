@@ -7,4 +7,4 @@ class Logger:
         Error = "Error"
 
     def log(self, message: str, level = Level.Info) -> None:
-        print(f"[{level}]: {message}")
+        print(f"[{level.value}]: {message}")
